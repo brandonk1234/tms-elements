@@ -1,0 +1,46 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:react-hooks/recommended"
+  ],
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", "jsx"]
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      2,
+      {
+        "required": {
+          "every": [ "id" ]
+        }
+      }
+    ],
+    "react/forbid-prop-types": "off",
+    "max-len": ["error", 1000],
+    "import/no-named-as-default": 0,
+    "consistent-return": 0,
+    "react/prefer-es6-class": 0,
+    "import/no-unresolved": 0,
+    "react/destructuring-assignment": 0,
+    "react/prefer-stateless-function": 0,
+    "no-underscore-dangle": 0,
+    "padded-blocks": 0,
+    "no-return-assign": 0,
+    "no-console": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true }]
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "globals": { "_": true }
+}
