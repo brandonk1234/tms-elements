@@ -63,7 +63,7 @@
   background-color: #fff;
 
   @at-root .isLabelPositionedLeft #{&} {
-    right: 0;
+    right: 8px;
     left: auto;
   }
 
@@ -71,7 +71,7 @@
     left: 8px;
 
     @at-root .isLabelPositionedLeft #{&} {
-      right: 8px;
+      right: 0;
       left: auto;
     }
   }
