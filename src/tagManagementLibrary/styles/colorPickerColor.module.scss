@@ -1,0 +1,32 @@
+.element {
+  width: 46px;
+  height: 46px;
+  margin: 0 4px 4px 0;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  padding: 11px;
+  background-color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f4f4f4;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px rgba(63, 70, 75, 0.25);
+    outline: none;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+
+  &.isSelected {
+    box-shadow: 0 0 0 2px #1ab2f5;
+  }
+}
+
+.inner {
+  height: 100%;
+  border-radius: 4px;
+}
